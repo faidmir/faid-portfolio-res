@@ -1,0 +1,404 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+html{
+    font-family: "Source Sans Pro",sans-serif;
+    scroll-behavior: smooth;
+}
+.nav-logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#img-me{
+    width: 50px;
+    border-radius: 50%;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 50px;
+    position: fixed;
+    /* top: 0; */
+    /* left: 0; */
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link ul{
+    display: flex;
+    gap: 50px;
+}
+.nav-link ul li,a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.nav-logo h2 a:hover{
+    color: blue;
+    transition: ease-in-out 0.3s;
+}
+
+.nav-link ul li a:hover{
+color: blue;
+transition: ease-in-out 0.3s;
+}
+.intro{
+    color: #fff;
+    background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(/assets/common-bg.svg);
+    background-position: center;
+    min-height: 40rem;
+    max-height: 90rem;
+    position: relative;
+}
+.intro h1,p{
+    text-align: center;
+
+}
+.intro p{
+    padding: 40px 0;
+}
+.intro h1{
+    font-size: 4.5rem;
+}
+.intro p{
+    font-size: 1.2rem;
+}
+
+.intro-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90rem;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-btn{
+
+    text-align: center;
+    /* justify-content: center; */
+    padding: 15px 80px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+}
+.intro-btn:hover{
+    transform: translateY(-7px);
+    transition: ease-in-out 0.2s;
+}
+
+.about-us-content{
+    display: flex;
+    height: 500px;
+    gap: 20px;
+    padding: 50px;
+}
+
+.get-to-me{
+    width: 50%;
+}
+.my-skills{
+    width: 50%;
+}
+.skills{
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+padding: 20px;
+
+}
+
+.skills-box{
+ padding: 10px 20px;
+ background-color: gainsboro;
+ border-radius: 9px;
+ color: #777777;
+ font-weight: 600;
+ line-height: 24px;
+ font-size: 17px;
+}
+
+
+.about-us{
+padding-top: 120px;
+
+}
+.about-me{
+    align-items: center;
+}
+
+
+.cont-btn{
+    text-align: center;
+    padding: 15px 50px;
+    background-color: #0062b9;
+    color: black;
+    border-radius: 4px;
+    margin: 30px 10px;
+    display: inline-block;
+    color: white;
+
+}
+.cont-btn:hover{
+    transform: translateY(-7px);
+    transition: ease-in-out 0.2s;
+}
+
+
+.get-to-me p{
+    color:  #808080;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 15px;
+}
+
+
+.get-to-me h2{
+    font-size: 30px;
+    margin: 0 0 30px 0;
+}
+
+
+.about-me h2{
+    font-size: 43px;
+    text-align: center;
+    position: relative;
+    line-height: 60px;
+    margin: 10px 35px;
+}
+.about-me p{
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0 200px;
+}
+
+.my-skills h2{
+    font-size: 30px;
+    line-height: 42px;
+    margin: 0px 30px;
+}
+
+.skills-box:hover{
+    background-color: white;
+    border: 1px solid #808080 ;
+}
+
+.contact-sec{
+    color: #fff;
+    background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(/assets/common-bg.svg);
+    background-position: center;
+    min-height: 40rem;
+    max-height: 90rem;
+    position: relative;
+} 
+
+
+
+
+.contact-text h2{
+    font-size: 43px;
+    text-align: center;
+    position: relative;
+    line-height: 60px;
+    margin: 10px 35px;
+}
+.contact-text p{
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0 200px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 55px 200px;
+    padding: 40px;
+    line-height: 15px;
+    color: black; 
+ justify-content: centerff;
+}
+
+
+.form-label-2{
+    display: inline-block;
+    background-color:  #F0F0F0;
+    padding: 23px;
+       border: 1px solid  #EBEBEB;
+       border-radius: 5px;
+
+}
+
+.form-label{
+    margin: 20px 0;
+    display: block;
+    line-height: 21px;
+    text-align: left;
+ 
+}
+.btn-sub{
+    display: inline-block;
+    text-align: center;
+    background-color:  #0062B9;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 5px;
+}
+
+.form-btn{
+
+margin: 20px 0;
+
+}
+.wrap-cont{
+    margin: 0px 75px;
+    display: block;
+    padding: 25px;
+}
+.sub-footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px;
+}
+.left-footer h2{
+    padding: 10px;
+}
+
+.footer-img{
+    width: 30px;
+   margin: 5px;
+}
+.right-footer h2{
+    padding: 10px;
+}
+
+.footer{
+    background-color: white;
+    color:black ;
+    padding: 10px;
+    display: block;
+}
+
+
+
+
+@media screen and (max-width:700px)
+{
+
+.nav-link{
+    display: none;
+}
+
+.nav-logo{
+    align-items: center;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+.about-me p{
+    display: block;
+    text-align: center;
+    color: #777;
+    font-size: 1.4rem;
+    font-weight: 500;
+    max-width: 80rem;
+    margin: 10px;
+    line-height: 1.6;
+}
+
+.get-to-me p{
+    display: block;
+    text-align: justify;
+    color: #777;
+    font-size: 1.4rem;
+    font-weight: 500;
+    max-width: 80rem;
+    margin: 10px;
+    line-height: 1.5;}
+
+
+.get-to-me h2{
+font-size: 2.4rem;
+text-align: center;
+}
+
+.about-us{padding: 15px;}
+
+.about-us-content{
+display: grid;
+grid-template-columns: 1fr;
+grid-gap: 3rem;
+text-align: justify;
+height: 100%;
+padding: 18px;
+
+}
+.get-to-me{display: block;
+  width: 100%;
+  }
+.my-skills{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact-text h2{
+    text-align: center;
+    margin: 10px;
+}
+.contact-text p{
+    
+    text-align: justify;
+    font-size: 1.4rem;
+    font-weight: 500;
+    max-width: 80rem;
+    margin: 10px;
+    line-height: 1.6;
+}
+.form-container{
+border-radius: 4px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.form-label-2{
+    font-size: .9rem;
+}
+
+.sub-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.left-footer p{
+    font-size: 1.2rem;
+}
+.footer{
+    padding: 25px;
+}
+
+.footer p{
+
+    font-size: 1.3rem;
+}
+
+
+}
